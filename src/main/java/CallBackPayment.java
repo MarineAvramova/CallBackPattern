@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface CallBackPayment {
+public interface CallBackPayment {
+    boolean authorizePayment(double price);
 }

@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class PaymentRoom {
+public class PaymentRoom {
+    public boolean processPayment(CallBackPayment paymentMethod, double price){
+
+        return paymentMethod.authorizePayment(price);
+    }
 }
